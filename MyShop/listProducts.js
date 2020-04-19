@@ -7,7 +7,7 @@ console.log('');
 
 for (var i = 0; i < 10; i++) {
 	
-	var product = shop.commerce.product();
+	var product = shop.commerce.productName();
 	var price = shop.commerce.price();
 	// console.log(product);
 	var str = product + ' - $' + price;
